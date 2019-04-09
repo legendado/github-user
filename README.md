@@ -1,29 +1,16 @@
-# github-user
+# github-user web application
 
-## Project setup
+* Search user on github using Github API
+* Node.js + Vue.js
+
+# Localhost: 
 ```
+// make sure that you install Vue CLI
+
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+# Heroku 
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+https://githubusers-search.herokuapp.com/
