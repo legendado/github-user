@@ -24,8 +24,7 @@
         </v-btn>
       </v-layout>
       <v-layout v-if="done" justify-center align-center>
-        <v-card id="info">
-            <!-- aspect-ratio="2.75" -->
+        <v-card id="info">            
           <v-img :src="data.avatar_url" ></v-img>
           <h3>Login: {{ data.login }}</h3>
           <h3>

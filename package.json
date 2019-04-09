@@ -4,10 +4,13 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "start": "node server.js"
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
     "vue": "^2.6.6",
     "vue-router": "^3.0.1",
     "vuetify": "^1.5.9",
